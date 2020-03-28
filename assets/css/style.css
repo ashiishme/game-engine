@@ -1,0 +1,26 @@
+/**
+ * Project          : JavaScript 2D Game Engine
+ * Module           : Canvas Style
+ * Source filename  : style.css
+ * Description      : Static style for canvas
+ * Author           : Ashish Yadav<contact@ashiish.me>
+ * Copyright        : Copyright © 2020, www.ashiish.me
+ *                    This software is free to use but please provide attribution to me if possible.
+ *
+ * @package game-engine               
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;	
+}
+
+canvas {
+	display: block;
+	border: 2px solid #d3d3d3;
+}
